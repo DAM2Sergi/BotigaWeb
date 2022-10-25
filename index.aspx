@@ -4,13 +4,35 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projecte Web Estructura</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div>
+    <header>
+        <div class="dreta">
+            <a href="#"><img src="/img/logo.png" alt="Logo"></a>
+            <h1>Algo</h1>
         </div>
-    </form>
+
+        <div class="esquerra">
+            <a href="carrito.html">Carrito</a>
+        </div>
+    </header>
+    
+    <main>
+
+        <div class="Productes">
+            <div class="carta-prod">
+                <img class="img" src="" alt="Imatge Producte">
+                <h1 class="model"></h1>
+                <p class="preu"></p>
+            </div>
+        </div>
+
+    </main>
 </body>
 </html>
