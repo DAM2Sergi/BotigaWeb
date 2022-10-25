@@ -59,3 +59,20 @@ header a{
     align-items: center;
     justify-content: center;
 }
+
+.productes {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.carta-prod {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.carta-prod img{
+   width: 5.5rem;
+   height: 5.5rem;
+}

@@ -25,11 +25,29 @@
     
     <main>
 
-        <div class="Productes">
+        <div class="productes">
             <div class="carta-prod">
-                <img class="img" src="" alt="Imatge Producte">
-                <h1 class="model"></h1>
-                <p class="preu"></p>
+                <img class="img" src="/img/logo.png" alt="Imatge Producte">
+                <h1 class="model">Prod1</h1>
+                <p class="preu">Prod1</p>
+            </div>
+
+            <div class="carta-prod">
+                <img class="img" src="/img/logo.png" alt="Imatge Producte">
+                <h1 class="model">Prod2</h1>
+                <p class="preu">Prod2</p>
+            </div>
+
+            <div class="carta-prod">
+                <img class="img" src="/img/logo.png" alt="Imatge Producte">
+                <h1 class="model">Prod3</h1>
+                <p class="preu">Prod3</p>
+            </div>
+            
+            <div class="carta-prod">
+                <img class="img" src="/img/logo.png" alt="Imatge Producte">
+                <h1 class="model">Prod4</h1>
+                <p class="preu">Prod4</p>
             </div>
         </div>
 
