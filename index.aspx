@@ -19,7 +19,7 @@
         </div>
 
         <div class="esquerra">
-            <a href="carrito.html">Carrito</a>
+            <a href="carrito.aspx">Carrito</a>
         </div>
     </header>
     
