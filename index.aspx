@@ -8,49 +8,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projecte Web Estructura</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
-    <header>
-        <div class="dreta">
-            <a href="#"><img src="/img/logo.png" alt="Logo"></a>
-            <h1>Algo</h1>
-        </div>
+    <form id="form1" runat="server">
+        <div>
+            <header>
+                <div class="dreta">
+                    <a href="#"><img src="/img/logo.png" alt="Logo"></a>
+                    <h1>Algo</h1>
+                </div>
 
-        <div class="esquerra">
-            <a href="carrito.aspx">Carrito</a>
-        </div>
-    </header>
+                <div class="esquerra">
+                    <a href="carrito.aspx"><i class="fa fa-cart-arrow-down"></i></a>
+                </div>
+            </header>
     
-    <main>
+            <main>
+                <div class="productes">
+                    <div class="carta-prod">
+                        <img class="img" src="/img/logo.png" alt="Imatge Producte">
+                        <h1 class="model">Prod1</h1>
+                        <p class="preu">Prod1</p>
+                        <asp:Button ID="prod1" runat="server" Text="Comprar"/>
+                    </div>
 
-        <div class="productes">
-            <div class="carta-prod">
-                <img class="img" src="/img/logo.png" alt="Imatge Producte">
-                <h1 class="model">Prod1</h1>
-                <p class="preu">Prod1</p>
-            </div>
+                    <div class="carta-prod">
+                        <img class="img" src="/img/logo.png" alt="Imatge Producte">
+                        <h1 class="model">Prod2</h1>
+                        <p class="preu">Prod2</p>
+                        <asp:Button ID="prod2" runat="server" Text="Comprar"/>                
+                    </div>
 
-            <div class="carta-prod">
-                <img class="img" src="/img/logo.png" alt="Imatge Producte">
-                <h1 class="model">Prod2</h1>
-                <p class="preu">Prod2</p>
-            </div>
-
-            <div class="carta-prod">
-                <img class="img" src="/img/logo.png" alt="Imatge Producte">
-                <h1 class="model">Prod3</h1>
-                <p class="preu">Prod3</p>
-            </div>
+                    <div class="carta-prod">
+                        <div class="info_prod">
+                            <img class="img" src="/img/logo.png" alt="Imatge Producte">
+                            <h1 class="model">Prod3</h1>
+                            <p class="preu">Prod3</p>
+                        </div>
+                        <asp:Button ID="prod3" runat="server" Text="Comprar"/>
+                    </div>
             
-            <div class="carta-prod">
-                <img class="img" src="/img/logo.png" alt="Imatge Producte">
-                <h1 class="model">Prod4</h1>
-                <p class="preu">Prod4</p>
-            </div>
-        </div>
+                    <div class="carta-prod">
+                        <img class="img" src="/img/logo.png" alt="Imatge Producte">
+                        <h1 class="model">Prod4</h1>
+                        <p class="preu">Prod4</p>
+                        <asp:Button ID="prod4" runat="server" Text="Comprar"/>
+                    </div>
+                </div>
+            </main>
 
-    </main>
+        </div>
+    </form>
 </body>
 </html>

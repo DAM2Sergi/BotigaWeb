@@ -14,6 +14,10 @@ html{
 
 }
 
+main{
+    height: 80vh;
+}
+
 header{
 
     height: 8vh;
@@ -64,15 +68,33 @@ header a{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap:wrap;
+
+    margin: 3rem;
 }
 
 .carta-prod {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+
+    background-color:lightgray;
+}
+
+.carta-prod input{
+
+  background-color: #444;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
 .carta-prod img{
-   width: 5.5rem;
-   height: 5.5rem;
+   width: 16.5rem;
+   height: 17.5rem;
+
+   padding: 2rem;
 }
