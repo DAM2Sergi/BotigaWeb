@@ -8,23 +8,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projecte Web Estructura</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_carret.css">
 
 </head>
 <body>
     <header>
         <div class="dreta">
-            <a href="#"><img src="/img/logo.png" alt="Logo"></a>
+            <a href="index.aspx"><img src="/img/logo.png" alt="Logo"></a>
             <h1>Algo</h1>
         </div>
 
-        <div class="esquerra">
-            <a href="carrito.html">Carrito</a>
-        </div>
+
     </header>
     
     <main>
+        <div class="msg">
+            <h1>Aquestos son els productes que tens al carret de la compra</h1>
+        </div>
+        <div class="carret">
+            <asp:Table runat="server">
+                <asp:TableHeaderRow>
+                    <asp:TableHeaderCell>
+                        producte
+                    </asp:TableHeaderCell>
+                    <asp:TableHeaderCell>
+                        producte
+                    </asp:TableHeaderCell>
+                </asp:TableHeaderRow>
 
+            </asp:Table>
+        </div>
+        
+
+        <div class="botons">
+            <button>1</button>
+            <button>2</button>
+        </div>
 
     </main>
 </body>

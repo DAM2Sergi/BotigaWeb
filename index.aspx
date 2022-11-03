@@ -16,50 +16,89 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <header>
-                <div class="dreta">
-                    <a href="#"><img src="/img/logo.png" alt="Logo"></a>
-                    <h1>Algo</h1>
-                </div>
+               <header>
+                    <div class="dreta">
+                        <a href="#"><img src="/img/logo.png" alt="Logo"></a>
+                        <h1>Algo</h1>
+                    </div>
 
-                <div class="esquerra">
-                    <a href="carrito.aspx"><i class="fa fa-cart-arrow-down"></i></a>
-                </div>
-            </header>
+                    <div class="esquerra">
+                        <a href="carrito.aspx"><i class="fa fa-cart-arrow-down"></i></a>
+                    </div>
+        
+                </header>
     
-            <main>
-                <div class="productes">
-                    <div class="carta-prod">
-                        <img class="img" src="/img/logo.png" alt="Imatge Producte">
-                        <h1 class="model">Prod1</h1>
-                        <p class="preu">Prod1</p>
-                        <asp:Button ID="prod1" runat="server" Text="Comprar"/>
+                <main>
+                    <div class="msg">
+                        <h1>Tenim Aquestos Productes Actualmet</h1>
                     </div>
 
-                    <div class="carta-prod">
-                        <img class="img" src="/img/logo.png" alt="Imatge Producte">
-                        <h1 class="model">Prod2</h1>
-                        <p class="preu">Prod2</p>
-                        <asp:Button ID="prod2" runat="server" Text="Comprar"/>                
-                    </div>
-
-                    <div class="carta-prod">
-                        <div class="info_prod">
+                    <div class="productes">
+                        <div class="carta-prod">          
                             <img class="img" src="/img/logo.png" alt="Imatge Producte">
-                            <h1 class="model">Prod3</h1>
-                            <p class="preu">Prod3</p>
-                        </div>
-                        <asp:Button ID="prod3" runat="server" Text="Comprar"/>
-                    </div>
+                            <div class="info-prod">
+                                <h1 class="model">Prod2</h1>
+                                <p class="preu">Prod2</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, consequuntur dolor. Velit eius eos odit, non, eligendi consequuntur voluptatum incidunt hic impedit suscipit vero tempore libero saepe optio veniam similique.</p>
+                            </div>
+                            <div class="compra">
+                                <div class="quantitat">
+                                    <p>Num.</p>
+                                    <input type="number" name="prod_quant" id="prod_quant1" value="0" min="0" max="100">
+                                </div>
+                                <asp:Button ID="Button1" runat="server" Text="Comprar" class="boto"/>
+                            </div>
+                        </div>            
             
-                    <div class="carta-prod">
-                        <img class="img" src="/img/logo.png" alt="Imatge Producte">
-                        <h1 class="model">Prod4</h1>
-                        <p class="preu">Prod4</p>
-                        <asp:Button ID="prod4" runat="server" Text="Comprar"/>
+                        <div class="carta-prod">          
+                            <img class="img" src="/img/logo.png" alt="Imatge Producte">
+                            <div class="info-prod">
+                                <h1 class="model">Prod2</h1>
+                                <p class="preu">Prod2</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, consequuntur dolor. Velit eius eos odit, non, eligendi consequuntur voluptatum incidunt hic impedit suscipit vero tempore libero saepe optio veniam similique.</p>
+                            </div>
+                            <div class="compra">
+                                <div class="quantitat">
+                                    <p>Num.</p>
+                                    <input type="number" name="prod_quant" id="prod_quant2" value="0" min="0" max="100">
+                                </div>
+                                <asp:Button ID="Button2" runat="server" Text="Comprar" class="boto"/>
+                            </div>
+                        </div>
+
+                        <div class="carta-prod">          
+                            <img class="img" src="/img/logo.png" alt="Imatge Producte">
+                            <div class="info-prod">
+                                <h1 class="model">Prod2</h1>
+                                <p class="preu">Prod2</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, consequuntur dolor. Velit eius eos odit, non, eligendi consequuntur voluptatum incidunt hic impedit suscipit vero tempore libero saepe optio veniam similique.</p>
+                            </div>
+                            <div class="compra">
+                                <div class="quantitat">
+                                    <p>Num.</p>
+                                    <input type="number" name="prod_quant" id="prod_quant3" value="0" min="0" max="100">
+                                </div>
+                                <asp:Button ID="Button3" runat="server" Text="Comprar" class="boto"/>
+                            </div>
+                        </div>
+
+                        <div class="carta-prod">          
+                            <img class="img" src="/img/logo.png" alt="Imatge Producte">
+                            <div class="info-prod">
+                                <h1 class="model">Prod2</h1>
+                                <p class="preu">Prod2</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, consequuntur dolor. Velit eius eos odit, non, eligendi consequuntur voluptatum incidunt hic impedit suscipit vero tempore libero saepe optio veniam similique.</p>           
+                            </div>
+                            <div class="compra">
+                                <div class="quantitat">
+                                    <p>Num.</p>
+                                    <input type="number" name="prod_quant" id="prod_quant4" value="0" min="0" max="100">
+                                </div>
+                                <asp:Button ID="Button4" runat="server" Text="Comprar" class="boto"/>
+                            </div>             
+                        </div>
                     </div>
-                </div>
-            </main>
+                </main>
 
         </div>
     </form>
