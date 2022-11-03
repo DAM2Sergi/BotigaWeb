@@ -73,7 +73,7 @@
     <Content Include="Web.config" />
     <Content Include="index.aspx" />
     <Content Include="carrito.aspx" />
-    <Content Include="WebForm3.aspx" />
+    <Content Include="Formulari.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -91,12 +91,12 @@
     <Compile Include="carrito.aspx.designer.cs">
       <DependentUpon>carrito.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm3.aspx.cs">
-      <DependentUpon>WebForm3.aspx</DependentUpon>
+    <Compile Include="Formulari.aspx.cs">
+      <DependentUpon>Formulari.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm3.aspx.designer.cs">
-      <DependentUpon>WebForm3.aspx</DependentUpon>
+    <Compile Include="Formulari.aspx.designer.cs">
+      <DependentUpon>Formulari.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

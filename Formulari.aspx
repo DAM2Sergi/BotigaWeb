@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm3.aspx.cs" Inherits="BotigaWeb.WebForm3" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Formulari.aspx.cs" Inherits="BotigaWeb.WebForm3" %>
 
 <!DOCTYPE html>
 
@@ -10,6 +10,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <p>Formulari</p>
         </div>
     </form>
 </body>

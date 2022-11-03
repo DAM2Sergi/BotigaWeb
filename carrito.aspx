@@ -29,20 +29,51 @@
             <asp:Table runat="server">
                 <asp:TableHeaderRow>
                     <asp:TableHeaderCell>
-                        producte
+                        Imatge
                     </asp:TableHeaderCell>
                     <asp:TableHeaderCell>
-                        producte
+                        Producte
+                    </asp:TableHeaderCell>
+                    <asp:TableHeaderCell>
+                        Descripció
+                    </asp:TableHeaderCell>
+                    <asp:TableHeaderCell>
+                        Quantitat
+                    </asp:TableHeaderCell>
+                    <asp:TableHeaderCell>
+                        Preu
                     </asp:TableHeaderCell>
                 </asp:TableHeaderRow>
+
+                <asp:TableRow>
+                    <asp:TableCell>
+                        1
+                    </asp:TableCell>
+                    <asp:TableCell>
+                        2
+                    </asp:TableCell>
+                    <asp:TableCell>
+                        3
+                    </asp:TableCell>
+                    <asp:TableCell>
+                        4
+                    </asp:TableCell>
+                    <asp:TableCell>
+                        5
+                    </asp:TableCell>
+                    <asp:TableCell>
+                        6
+                    </asp:TableCell>
+                </asp:TableRow>
 
             </asp:Table>
         </div>
         
 
         <div class="botons">
-            <button>1</button>
-            <button>2</button>
+            <button><a href="index.aspx">Seguir Comprant</a></button>
+            
+            <button><a href="index.aspx">Confirmar Compra</a></button>
         </div>
 
     </main>
