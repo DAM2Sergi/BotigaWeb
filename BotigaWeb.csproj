@@ -70,6 +70,10 @@
     <Content Include="css\style.css" />
     <Content Include="css\style_carret.css" />
     <Content Include="img\logo.png" />
+    <Content Include="productes\Prod1.txt" />
+    <Content Include="productes\Prod4.txt" />
+    <Content Include="productes\Prod3.txt" />
+    <Content Include="productes\Prod2.txt" />
     <Content Include="Web.config" />
     <Content Include="index.aspx" />
     <Content Include="carrito.aspx" />
@@ -110,7 +114,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="comandes\" />
-    <Folder Include="productes\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
