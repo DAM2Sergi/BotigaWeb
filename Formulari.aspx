@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Formulari.aspx.cs" Inherits="BotigaWeb.WebForm3" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="formulari.aspx.cs" Inherits="BotigaWeb.WebForm3" %>
 
 <!DOCTYPE html>
 
@@ -44,8 +44,8 @@
                     
                 </div>
 
-                <div>
-                    <asp:Image ID="Image1" runat="server" ImageUrl="~/productes/Prod1.png" />
+                <div class="formulari_img">
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/img/form.png" />
                 </div>
             </main>
 

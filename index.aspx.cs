@@ -43,7 +43,7 @@ namespace BotigaWeb
                 
                 String path = productes[i];
 
-                int lblcont = 1;
+                int cont = i+1;
 
                 StreamReader reader = new StreamReader(path);
 
@@ -53,7 +53,7 @@ namespace BotigaWeb
                 String nom = producte_info[0];
                 String desc = producte_info[1];
                 String preu = producte_info[2];
-                String imatge = img_productes[i];
+                String imatge = "/productes/Prod"+ cont +".png";
 
                 String prod = "<div class='carta-prod'> " +
                                     "<img class='img' src='" + imatge + "' alt='Imatge Producte'>" +
@@ -67,13 +67,13 @@ namespace BotigaWeb
                                             "<p>Num.</p>"+
                                             "<input type = 'number' name='prod_quant' id='prod_quant1' value='0' min='0' max='100'>"+
                                         "</div>"+
-                                        "<asp:button ID = 'Button"+(i+lblcont)+"' runat='server' class='boto'/>Comprar</asp:button>"+
+                                        "<asp:button ID = 'Button"+(cont)+"' runat='server' class='boto'/>Comprar</asp:button>"+
                                     "</div>"+
                                  "</div>";
 
 
 
-                ((Label)(Page.FindControl("prod" + (i+lblcont)))).Text = prod;
+                ((Label)(Page.FindControl("prod" + (cont)))).Text = prod;
 
             }
 

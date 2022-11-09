@@ -73,7 +73,7 @@
         <div class="botons">
             <button><a href="index.aspx">Seguir Comprant</a></button>
             
-            <button><a href="Formulari.aspx">Confirmar Compra</a></button>
+            <button><a href="formulari.aspx">Confirmar Compra</a></button>
         </div>
 
     </main>
