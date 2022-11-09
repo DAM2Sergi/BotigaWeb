@@ -30,16 +30,20 @@
     
                 <main>
                     <div class="msg">
-                        <h1>Tenim Aquestos Productes Actualmet</h1>
+                        <asp:Label ID="msg" runat="server"></asp:Label>
                     </div>
 
                     <div class="productes">
-                        <div class="carta-prod">          
+                        <asp:Label ID="prod1" runat="server" Text=""></asp:Label>
+                        <asp:Label ID="prod2" runat="server" Text=""></asp:Label>
+                        <asp:Label ID="prod3" runat="server" Text=""></asp:Label>
+                        <asp:Label ID="prod4" runat="server" Text=""></asp:Label>
+
+
+                       <!--<div class="carta-prod">          
                             <img class="img" src="/img/logo.png" alt="Imatge Producte">
                             <div class="info-prod">
-                                <h1 id="titol1" runat="server" class="model">Prod2</h1>
-                                <p id="preu1" runat="server" class="preu">Prod2</p>
-                                <p id="desc1" runat="server">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, consequuntur dolor. Velit eius eos odit, non, eligendi consequuntur voluptatum incidunt hic impedit suscipit vero tempore libero saepe optio veniam similique.</p>
+                                <asp:Label ID="p" runat="server" Text="Label"></asp:Label>
                             </div>
                             <div class="compra">
                                 <div class="quantitat">
@@ -53,9 +57,7 @@
                         <div class="carta-prod">          
                             <img class="img" src="/img/logo.png" alt="Imatge Producte">
                             <div class="info-prod">
-                                <h1 class="model">Prod2</h1>
-                                <p class="preu">Prod2</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, consequuntur dolor. Velit eius eos odit, non, eligendi consequuntur voluptatum incidunt hic impedit suscipit vero tempore libero saepe optio veniam similique.</p>
+                                <asp:Label ID="pr" runat="server" Text="Label"></asp:Label>
                             </div>
                             <div class="compra">
                                 <div class="quantitat">
@@ -69,9 +71,7 @@
                         <div class="carta-prod">          
                             <img class="img" src="/img/logo.png" alt="Imatge Producte">
                             <div class="info-prod">
-                                <h1 class="model">Prod2</h1>
-                                <p class="preu">Prod2</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, consequuntur dolor. Velit eius eos odit, non, eligendi consequuntur voluptatum incidunt hic impedit suscipit vero tempore libero saepe optio veniam similique.</p>
+                                <asp:Label ID="pro" runat="server" Text="Label"></asp:Label>
                             </div>
                             <div class="compra">
                                 <div class="quantitat">
@@ -85,9 +85,7 @@
                         <div class="carta-prod">          
                             <img class="img" src="/img/logo.png" alt="Imatge Producte">
                             <div class="info-prod">
-                                <h1 class="model">Prod2</h1>
-                                <p class="preu">Prod2</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, consequuntur dolor. Velit eius eos odit, non, eligendi consequuntur voluptatum incidunt hic impedit suscipit vero tempore libero saepe optio veniam similique.</p>           
+                                <asp:Label ID="prod" runat="server" Text="Label"></asp:Label>          
                             </div>
                             <div class="compra">
                                 <div class="quantitat">
@@ -96,10 +94,9 @@
                                 </div>
                                 <asp:Button ID="Button4" runat="server" Text="Comprar" class="boto"/>
                             </div>             
-                        </div>
+                        </div>-->
                     </div>
                 </main>
-
         </div>
     </form>
 </body>

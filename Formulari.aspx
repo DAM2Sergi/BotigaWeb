@@ -23,10 +23,32 @@
                     </div>
 
                     <div class="esquerra">
-                        <a href="carrito.aspx"><i class="fa fa-cart-arrow-down"></i></a>
+                        
+                    </div>      
+            </header>
+            
+            <main>
+                <div class="formulari_confirmar">
+
+                    <label>Nom: </label>
+                    <input id="Text1" type="text" />
+                    <label>DNI: </label>
+                    <input id="Text2" type="text" />
+                    <label>Tel: </label>
+                    <input id="Text3" type="text" />
+
+                    <div>
+                        <input id="Button1" type="button" value="Esborrar" />
+                        <input id="Button2" type="button" value="Confirmar" />
                     </div>
-        
-                </header>
+                    
+                </div>
+
+                <div>
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/productes/Prod1.png" />
+                </div>
+            </main>
+
         </div>
     </form>
 </body>

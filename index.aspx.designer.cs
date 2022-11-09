@@ -24,31 +24,58 @@ namespace BotigaWeb
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Control titol1.
+        /// Control msg.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl titol1;
+        protected global::System.Web.UI.WebControls.Label msg;
 
         /// <summary>
-        /// Control preu1.
+        /// Control prod1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl preu1;
+        protected global::System.Web.UI.WebControls.Label prod1;
 
         /// <summary>
-        /// Control desc1.
+        /// Control prod2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl desc1;
+        protected global::System.Web.UI.WebControls.Label prod2;
+
+        /// <summary>
+        /// Control prod3.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label prod3;
+
+        /// <summary>
+        /// Control prod4.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label prod4;
+
+        /// <summary>
+        /// Control p.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label p;
 
         /// <summary>
         /// Control Button1.
@@ -60,6 +87,15 @@ namespace BotigaWeb
         protected global::System.Web.UI.WebControls.Button Button1;
 
         /// <summary>
+        /// Control pr.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label pr;
+
+        /// <summary>
         /// Control Button2.
         /// </summary>
         /// <remarks>
@@ -69,6 +105,15 @@ namespace BotigaWeb
         protected global::System.Web.UI.WebControls.Button Button2;
 
         /// <summary>
+        /// Control pro.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label pro;
+
+        /// <summary>
         /// Control Button3.
         /// </summary>
         /// <remarks>
@@ -76,6 +121,15 @@ namespace BotigaWeb
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button3;
+
+        /// <summary>
+        /// Control prod.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label prod;
 
         /// <summary>
         /// Control Button4.
