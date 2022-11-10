@@ -12,7 +12,6 @@ namespace BotigaWeb
         protected void Page_Load(object sender, EventArgs e)
         {
 
-
         }
 
         protected void esborrar_Click(object sender, EventArgs e)
