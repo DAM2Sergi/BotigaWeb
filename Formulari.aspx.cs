@@ -15,6 +15,14 @@ namespace BotigaWeb
 
         }
 
+        protected void esborrar_Click(object sender, EventArgs e)
+        {
+           
+        }
 
+        protected void confirmar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

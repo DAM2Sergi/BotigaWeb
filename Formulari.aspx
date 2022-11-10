@@ -10,7 +10,14 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_form.css">
+
+    <style type="text/css">
+        #Button1 {
+            height: 26px;
+            width: 71px;
+        }
+    </style>
 
 </head>
 <body>
@@ -38,8 +45,8 @@
                     <input id="Text3" type="text" />
 
                     <div>
-                        <input id="Button1" type="button" value="Esborrar" />
-                        <input id="Button2" type="button" value="Confirmar" />
+                        <asp:Button ID="esborrar" runat="server" Text="Button" OnClick="esborrar_Click" />
+                        <asp:Button ID="confirmar" runat="server" Text="Button" OnClick="confirmar_Click" />
                     </div>
                     
                 </div>

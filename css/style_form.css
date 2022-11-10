@@ -59,9 +59,17 @@ align-items: center;
 ####################*/
 main {
     height: 80vh;
-
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+
 }
 
+.formulari_confirmar{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.formulari_img img {
+    width: 45rem;
+    height: 65rem;
+}
