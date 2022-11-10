@@ -60,16 +60,52 @@ align-items: center;
 main {
     height: 80vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
+
 
 }
 
 .formulari_confirmar{
+
     display: flex;
     flex-direction: column;
 
+    padding: 8rem;
+
 }
 
+.formulari_confirmar label{
+
+    font-size: 1.6rem;
+
+    padding: 1rem 0;
+
+}
+
+.formulari_confirmar input{
+    width: 25rem;
+    height: 4rem;
+
+    outline: none;
+}
+
+.formulari_botons{
+    margin-top: 1rem;
+}
+
+.formulari_botons input{
+    width: 49%;    
+
+}
+.formulari_img{
+    display: flex;
+
+
+}
 .formulari_img img {
-    width: 45rem;
-    height: 65rem;
+    width: 35rem;
+    height: 55rem;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
 }

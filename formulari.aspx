@@ -12,13 +12,6 @@
 
     <link rel="stylesheet" href="css/style_form.css">
 
-    <style type="text/css">
-        #Button1 {
-            height: 26px;
-            width: 71px;
-        }
-    </style>
-
 </head>
 <body>
     <form id="form1" runat="server">
@@ -30,8 +23,7 @@
                     </div>
 
                     <div class="esquerra">
-                        
-                        
+                                        
                     </div>      
             </header>
             
@@ -39,21 +31,26 @@
                 <div class="formulari_confirmar">
 
                     <label>Nom: </label>
-                    <input id="Text1" type="text" />
+                    <input id="Text1" type="text" runat="server"/>
                     <label>DNI: </label>
-                    <input id="Text2" type="text" />
+                    <input id="Text2" type="text" runat="server"/>
                     <label>Tel: </label>
-                    <input id="Text3" type="text" />
+                    <input id="Text3" type="text" runat="server"/>
 
-                    <div>
-                        <asp:Button ID="esborrar" runat="server" Text="Button" OnClick="esborrar_Click" />
-                        <asp:Button ID="confirmar" runat="server" Text="Button" OnClick="confirmar_Click" />
+                    <div class="formulari_botons">
+                        <asp:Button ID="esborrar" runat="server" Text="Esborrar" OnClick="esborrar_Click" />
+                        <asp:Button ID="confirmar" runat="server" Text="Confirmar" OnClick="confirmar_Click"/>
                     </div>
                     
                 </div>
 
                 <div class="formulari_img">
                     <asp:Image ID="Image1" runat="server" ImageUrl="~/img/form.png" />
+                    <div>
+                        <h2>A</h2>
+                        <p>A</p>
+                    </div>
+
                 </div>
             </main>
 
