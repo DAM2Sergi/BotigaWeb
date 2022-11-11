@@ -98,6 +98,12 @@ main {
     width: 49%;    
 
 }
+
+.formulari_msg span{
+    padding 1rem;
+    font-size:1.5rem;
+    color: #ef1919;
+}
 .formulari_img{
     display: flex;
 
@@ -109,3 +115,15 @@ main {
     border-top-left-radius: 5%;
     border-bottom-left-radius: 5%;
 }
+
+.img_desc{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+    padding: 1rem;
+    max-width: 8rem;
+}
+

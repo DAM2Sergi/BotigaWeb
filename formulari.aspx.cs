@@ -17,28 +17,38 @@ namespace BotigaWeb
 
         protected void esborrar_Click(object sender, EventArgs e)
         {
-            Text1.Value = "";
-            Text2.Value = "";
-            Text3.Value = "";
+            esborrarinputs();
         }
 
         protected void confirmar_Click(object sender, EventArgs e)
         {
-            if (Text1.Value == "")
+            if ((Text1.Value == "") || (Text2.Value == "") || (Text3.Value == ""))
             {
 
             }
             else
             {
-                String DNI = Text1.Value;
+                String DNI = Text2.Value;
 
                 String path = Server.MapPath(".") + "/comandes/" + DNI + ".txt";
                 StreamWriter writer = new StreamWriter(path);
+
+                String linia = Text1.Value + ";" + Text3.Value + ";";
+
+                writer.Write(linia);
+                writer.Dispose();
+
+                esborrarinputs();
             }
 
+        }
 
 
-
+        private void esborrarinputs()
+        {
+            Text1.Value = "";
+            Text2.Value = "";
+            Text3.Value = "";
         }
     }
 }

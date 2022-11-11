@@ -41,14 +41,14 @@
                         <asp:Button ID="esborrar" runat="server" Text="Esborrar" OnClick="esborrar_Click" />
                         <asp:Button ID="confirmar" runat="server" Text="Confirmar" OnClick="confirmar_Click"/>
                     </div>
-                    
+
                 </div>
 
                 <div class="formulari_img">
                     <asp:Image ID="Image1" runat="server" ImageUrl="~/img/form.png" />
-                    <div>
-                        <h2>A</h2>
-                        <p>A</p>
+                    <div class="img_desc">
+                        <h2>Imatge</h2>
+                        <p>Sed et laoreet erat, ut convallis mi. Integer vitae egestas risus, id commodo ex. Proin posuere dapibus ligula, sed rutrum felis pretium vel. Vivamus ut erat sapien. Pellentesque ac egestas leo. Maecenas hendrerit efficitur suscipit. Vivamus viverra, massa in faucibus dignissim.</p>
                     </div>
 
                 </div>
