@@ -28,7 +28,10 @@ namespace BotigaWeb
             }
             else
             {
-                
+                List<string> carret1 = new List<string>();
+
+
+                carret1 = (List<string>)Session["Carret"];
 
                 int contador_comanda = 0;
 

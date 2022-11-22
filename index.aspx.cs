@@ -26,6 +26,7 @@ namespace BotigaWeb
         protected void Page_Load(object sender, EventArgs e)
         {
 
+
             ComprovarCarpetaProd();
 
         }
@@ -78,9 +79,6 @@ namespace BotigaWeb
                 String preu = producte_info[2] + "€";
                 String imatge = "/productes/Prod"+ cont +".png";
 
-                
-                
-
                 prodimg[i].ImageUrl = imatge;
                 prodtitols[i].InnerText = nom;
                 prodpreu[i].InnerText = preu;
@@ -98,15 +96,14 @@ namespace BotigaWeb
             imatgecarret = img1.ImageUrl;
             prodquantcarret = Number1.Value;
 
-            
+            List<string> carret1 = new List<string>();
 
-            Session["Prod"] = nomcarret;
+            carret1.Add(nomcarret);
+            carret1.Add(imatgecarret);
+            carret1.Add(preucarret);
+            carret1.Add(prodquantcarret);
 
-            nomcarret = (string)Session["Prod"];
-
-
-
-
+            Session["Carret"] = carret1;
 
         }
         protected void Button2_Click(object sender, EventArgs e)

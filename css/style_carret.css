@@ -72,24 +72,16 @@ main {
     ###carret###
 ####################*/
 
-.carret {
+.carretProducte{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin: 3rem;
 }
 
-table {
-    width: 90%;
-    padding: 1rem;
-    border: 1px solid #444;
-    background-color: #999;
-    border-radius: 3rem;
+#Image1{
+    width: 2rem;
+    height: 2rem;
 }
-
-    table td {
-        padding: 1.2rem;
-    }
 
 /* #################
     ###botons###

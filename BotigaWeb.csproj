@@ -75,13 +75,12 @@
     <Content Include="productes\Prod4.txt" />
     <Content Include="productes\Prod3.txt" />
     <Content Include="productes\Prod2.txt" />
-    <Content Include="Web.config" />
     <Content Include="index.aspx" />
     <Content Include="carrito.aspx" />
     <Content Include="formulari.aspx" />
+    <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Producte.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
