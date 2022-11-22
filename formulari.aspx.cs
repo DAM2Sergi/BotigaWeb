@@ -28,17 +28,20 @@ namespace BotigaWeb
             }
             else
             {
-                String DNI = Text2.Value;
+                
 
-                String path = Server.MapPath(".") + "/comandes/" + DNI + ".txt";
+                int contador_comanda = 0;
+
+                String path = Server.MapPath(".") + "/comandes/Comanda" + contador_comanda + ".txt";
                 StreamWriter writer = new StreamWriter(path);
 
-                String linia = Text1.Value + ";" + Text3.Value + ";";
+                String linia = Text1.Value + ";" + Text2.Value + ";" + Text3.Value + ";";
 
                 writer.Write(linia);
                 writer.Dispose();
 
                 esborrarinputs();
+                contador_comanda++;
             }
 
         }

@@ -11,7 +11,12 @@ namespace BotigaWeb
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            string nomcarret = "no funciona";
+            HttpContext context = HttpContext.Current;
+            context.Session["Prod"] = nomcarret;
+            nomcarret = (string)(context.Session["Prod"]);
 
+            p1.InnerText = nomcarret;
         }
     }
 }

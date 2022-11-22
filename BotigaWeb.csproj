@@ -81,6 +81,7 @@
     <Content Include="formulari.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Producte.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>

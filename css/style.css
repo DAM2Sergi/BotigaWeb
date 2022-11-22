@@ -79,7 +79,7 @@ main {
     margin: 3rem;
 }
 
-span .carta-prod {
+.carta-prod {
     max-width: 100%;
     display: flex;
     flex-direction: column;
@@ -87,12 +87,12 @@ span .carta-prod {
     background-color: lightgray;
 }
 
-span .carta-prod .img {
+.carta-prod img {
     width: 15.5rem;
     height: 15.5rem;
 }
 
-span .info-prod {
+.info-prod {
     padding: 1rem;
 }
 
