@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Web;
+using System.Web.SessionState;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
@@ -10,6 +11,7 @@ namespace BotigaWeb
 {
     public partial class WebForm3 : System.Web.UI.Page
     {
+
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -28,23 +30,31 @@ namespace BotigaWeb
             }
             else
             {
-                List<string> carret1 = new List<string>();
 
+                String dir = Server.MapPath(".") + "\\comandes\\";
+                String[] productes = Directory.GetFiles(dir);
+                int id = productes.Length;
 
-                carret1 = (List<string>)Session["Carret"];
+                String path = Server.MapPath(".") + "/comandes/Comanda"+id+".txt";
 
-                int contador_comanda = 0;
-
-                String path = Server.MapPath(".") + "/comandes/Comanda" + contador_comanda + ".txt";
                 StreamWriter writer = new StreamWriter(path);
 
-                String linia = Text1.Value + ";" + Text2.Value + ";" + Text3.Value + ";";
+                String[] carret = new String[4];
+
+                String linia = Text1.Value + ";" + Text2.Value + ";" + Text3.Value + "\n";
 
                 writer.Write(linia);
+
+                for (int i = 0; i < carret.Length; i++)
+                {
+                    carret[i] = (string)GetSession()["prod" + i];
+                    String prod =carret[i] + "\n";
+                    writer.Write(prod);
+                }
+
                 writer.Dispose();
 
                 esborrarinputs();
-                contador_comanda++;
             }
 
         }
@@ -55,6 +65,11 @@ namespace BotigaWeb
             Text1.Value = "";
             Text2.Value = "";
             Text3.Value = "";
+        }
+
+        private HttpSessionState GetSession()
+        {
+            return Session;
         }
     }
 }

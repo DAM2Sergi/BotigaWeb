@@ -97,7 +97,7 @@
                                     <p>Num.</p>
                                     <input type = 'number' name='prod_quant' runat='server' id='Number4' value='0' min='0' max='100'/>
                                 </div>
-                                <asp:Button ID='Button4' runat='server' Text='Comprar' CssClass="boto" OnClick="Button3_Click"/>
+                                <asp:Button ID='Button4' runat='server' Text='Comprar' CssClass="boto" OnClick="Button4_Click"/>
                             </div>
                         </div>
 

@@ -25,11 +25,34 @@
         </div>
         <div class="carret">
 
-                <div class="carretProducte">
-                    <asp:Image ID="Image1" runat="server" />
-                    <h3 runat="server" id="nom"></h3>
-                    <p runat="server" id="preu"></p>
-                </div>
+            <div runat="server" id="p0">
+                <asp:Image ID="Image0" runat="server" />
+                <h3 runat="server" id="titol0"></h3>
+                <input type = 'number' name='prod_quant' runat='server' id='Number0' value='0' min='0' max='100'/>
+                <p runat="server" id="preu0"></p>
+            </div>
+
+            <div runat="server" id="p1">
+                <asp:Image ID="Image1" runat="server" />
+                <h3 runat="server" id="titol1"></h3>
+                <input type = 'number' name='prod_quant' runat='server' id='Number1' value='0' min='0' max='100'/>
+                <p runat="server" id="preu1"></p>
+            </div>
+
+            <div runat="server" id="p2">
+                <asp:Image ID="Image2" runat="server" />
+                <h3 runat="server" id="titol2"></h3>
+                <input type = 'number' name='prod_quant' runat='server' id='Number2' value='0' min='0' max='100'/>
+                <p runat="server" id="preu2"></p>
+            </div>
+
+            <div runat="server" id="p3">
+                <asp:Image ID="Image3" runat="server" />
+                <h3 runat="server" id="titol3"></h3>
+                <input type = 'number' name='prod_quant' runat='server' id='Number3' value='0' min='0' max='100'/>
+                <p runat="server" id="preu3"></p>
+            </div>
+            
                 
         </div>
         
