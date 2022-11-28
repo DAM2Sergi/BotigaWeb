@@ -20,8 +20,6 @@ namespace BotigaWeb
         String imatgecarret = null;
         String prodquantcarret = null;
 
-        String[] productes = new String[4];
-
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -51,9 +49,6 @@ namespace BotigaWeb
 
         private void MostrarCarpeta(string[] productes, string[] img_productes)
         {
-
-
-            //millora fer un arrau de 2D
 
             System.Web.UI.HtmlControls.HtmlGenericControl[] prod = new System.Web.UI.HtmlControls.HtmlGenericControl[] { prod1, prod2, prod3, prod4 };
             Image[] prodimg = new Image[] { img1, img2, img3, img4 };
@@ -94,13 +89,11 @@ namespace BotigaWeb
 
                         prodimg[i].ImageUrl = imatge;
                         prodtitols[i].InnerText = nom;
-                        prodpreu[i].InnerText = preu;
+                        prodpreu[i].InnerText = preu + " €";
                         proddesc[i].InnerText = desc;
                     }
 
                 }
-
-
 
             }
 
@@ -108,63 +101,90 @@ namespace BotigaWeb
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+            if ("0"==Number1.Value)
+            {
 
-            nomcarret = H1.InnerText;
-            preucarret = p1.InnerText;
-            imatgecarret = img1.ImageUrl;
-            prodquantcarret = Number1.Value;
+            }
+            else
+            {
 
+                nomcarret = H1.InnerText;
+                preucarret = p1.InnerText;
+                imatgecarret = img1.ImageUrl;
+                prodquantcarret = Number1.Value;
 
-            String stringprod = nomcarret + ";" + preucarret + ";" + imatgecarret + ";" + prodquantcarret;
+                String stringprod = imatgecarret + ";" + nomcarret + ";" + preucarret + ";" + prodquantcarret;
 
-            productes[0] = stringprod;
+                Session["prod0"] = stringprod;
 
-            Session["prod0"] = stringprod;
+            }
+
 
         }
         protected void Button2_Click(object sender, EventArgs e)
         {
-            nomcarret = H2.InnerText;
-            preucarret = p2.InnerText;
-            imatgecarret = img2.ImageUrl;
-            prodquantcarret = Number2.Value;
+            if ("0" == Number2.Value)
+            {
 
+            }
+            else
+            {
 
-            String stringprod = nomcarret + ";" + preucarret + ";" + imatgecarret + ";" + prodquantcarret;
+                nomcarret = H2.InnerText;
+                preucarret = p2.InnerText;
+                imatgecarret = img2.ImageUrl;
+                prodquantcarret = Number2.Value;
 
-            productes[1] = stringprod;
+                String stringprod = imatgecarret + ";" + nomcarret + ";" + preucarret + ";" + prodquantcarret;
 
-            Session["prod1"] = stringprod;
+                Session["prod1"] = stringprod;
+
+            }
 
         }
         protected void Button3_Click(object sender, EventArgs e)
         {
-            nomcarret = H3.InnerText;
-            preucarret = p3.InnerText;
-            imatgecarret = img3.ImageUrl;
-            prodquantcarret = Number3.Value;
 
 
-            String stringprod = nomcarret + ";" + preucarret + ";" + imatgecarret + ";" + prodquantcarret;
+            if ("0" == Number3.Value)
+            {
 
-            productes[2] = stringprod;
+            }
+            else
+            {
 
-            Session["prod2"] = stringprod;
+                nomcarret = H3.InnerText;
+                preucarret = p3.InnerText;
+                imatgecarret = img3.ImageUrl;
+                prodquantcarret = Number3.Value;
+
+                String stringprod = imatgecarret + ";" + nomcarret + ";" + preucarret + ";" + prodquantcarret;
+
+                Session["prod2"] = stringprod;
+
+            }
 
         }
         protected void Button4_Click(object sender, EventArgs e)
         {
-            nomcarret = H4.InnerText;
-            preucarret = p4.InnerText;
-            imatgecarret = img4.ImageUrl;
-            prodquantcarret = Number4.Value;
-            
-            
-            String stringprod = nomcarret + ";" + preucarret + ";" + imatgecarret + ";" + prodquantcarret;
 
-            productes[3] = stringprod;
+            if ("0" == Number4.Value)
+            {
 
-            Session["prod3"] = stringprod;
+            }
+            else
+            {
+
+                nomcarret = H4.InnerText;
+                preucarret = p4.InnerText;
+                imatgecarret = img4.ImageUrl;
+                prodquantcarret = Number4.Value;
+
+                String stringprod = imatgecarret + ";" + nomcarret + ";" + preucarret + ";" + prodquantcarret;
+
+                Session["prod3"] = stringprod;
+
+            }
 
         }
 

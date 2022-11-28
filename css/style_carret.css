@@ -82,14 +82,38 @@ main {
     padding: 1.5rem;
 }
 
+.producte{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding:1rem;
+
+    font-size:2rem;
+}
+.producte img{
+    height: 8rem;
+    width: 8rem;
+}
+
+.producte input {
+    background-color: #444;
+    border: none;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
 /* #################
     ###botons###
 ####################*/
-
-.botons {
-
+.botons  {
     width: 100%;
-
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -97,6 +121,16 @@ main {
 }
 
 .botons button {
+    background-color: #444;
+    border: none;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.botons input {
     background-color: #444;
     border: none;
     color: white;

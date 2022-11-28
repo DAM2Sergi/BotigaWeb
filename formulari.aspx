@@ -45,12 +45,7 @@
                 </div>
 
                 <div class="formulari_img">
-                    <asp:Image ID="Image1" runat="server" ImageUrl="~/img/form.png" />
-                    <div class="img_desc">
-                        <h2>Imatge</h2>
-                        <p>Sed et laoreet erat, ut convallis mi. Integer vitae egestas risus, id commodo ex. Proin posuere dapibus ligula, sed rutrum felis pretium vel. Vivamus ut erat sapien. Pellentesque ac egestas leo. Maecenas hendrerit efficitur suscipit. Vivamus viverra, massa in faucibus dignissim.</p>
-                    </div>
-
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/img/imgform.jpg" />
                 </div>
             </main>
 

@@ -41,15 +41,15 @@ namespace BotigaWeb
 
                 String[] carret = new String[4];
 
-                String linia = Text1.Value + ";" + Text2.Value + ";" + Text3.Value + "\n";
+                String linia = Text1.Value + ";" + Text2.Value + ";" + Text3.Value;
 
-                writer.Write(linia);
+                writer.Write(linia + "\n");
 
                 for (int i = 0; i < carret.Length; i++)
                 {
                     carret[i] = (string)GetSession()["prod" + i];
-                    String prod =carret[i] + "\n";
-                    writer.Write(prod);
+                    String prod =carret[i];
+                    writer.Write(prod + "\n");
                 }
 
                 writer.Dispose();
